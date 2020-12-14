@@ -37,12 +37,12 @@ var List = map[string]string{"login": `{{define "login"}}
                     <div class="form-group">
                         <label for="username" class="sr-only">{{lang "username"}}</label>
                         <input type="text" required class="form-control" id="username" placeholder="{{lang "username"}}"
-                               autocomplete="off" value="admin">
+                               autocomplete="off">
                     </div>
                     <div class="form-group">
                         <label for="password" class="sr-only">{{lang "password"}}</label>
                         <input type="password" required class="form-control" id="password" placeholder="{{lang "password"}}"
-                               autocomplete="off" value="admin">
+                               autocomplete="off">
                     </div>
                     {% if .CaptchaDigits %}
                     <div class="form-group has-feedback 1">
@@ -66,7 +66,7 @@ var List = map[string]string{"login": `{{define "login"}}
         <div class="row" style="padding-top: 60px; clear: both;">
             <div class="col-md-12 text-center">
                 <p>
-                    <small>&copy; All Rights Reserved. GoAdmin</small>
+                    <small>&copy; All Rights Reserved.</small>
                 </p>
             </div>
         </div>
